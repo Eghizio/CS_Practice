@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Linq; //used for Contains() method
+using System.Linq; //used for filtering pool
 
 namespace CS_Practice
 {
