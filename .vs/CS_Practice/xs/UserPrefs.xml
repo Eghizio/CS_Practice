@@ -1,22 +1,22 @@
 ﻿<Properties StartupConfiguration="{3E62EACB-9270-4B9D-AD9C-E011F29BB5EE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReverseString.cs">
+  <MonoDevelop.Ide.ItemProperties.CS__Practice PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RevertStringExceptA.cs">
     <Files>
-      <File FileName="Main.cs" Line="10" Column="10" />
-      <File FileName="LongestRow.cs" Line="1" Column="1" />
-      <File FileName="Coins.cs" Line="1" Column="1" />
-      <File FileName="RevertString.cs" Line="1" Column="1" />
-      <File FileName="MissingN.cs" Line="1" Column="1" />
-      <File FileName="ArrayShift.cs" Line="1" Column="1" />
-      <File FileName="StringMathematic.cs" Line="1" Column="1" />
-      <File FileName="DuplicateString.cs" Line="1" Column="1" />
-      <File FileName="ReverseString.cs" Line="1" Column="1" />
+      <File FileName="Main.cs" Line="20" Column="63" />
+      <File FileName="LongestRow.cs" Line="2" Column="80" />
+      <File FileName="Coins.cs" Line="21" Column="31" />
+      <File FileName="RevertStringExceptA.cs" Line="32" Column="18" />
+      <File FileName="MissingN.cs" Line="21" Column="17" />
+      <File FileName="ArrayShift.cs" Line="6" Column="8" />
+      <File FileName="StringMathematic.cs" Line="12" Column="17" />
+      <File FileName="DuplicateString.cs" Line="12" Column="17" />
+      <File FileName="ReverseString.cs" Line="13" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CS__Practice PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq; //used for Contains() method
+
 namespace CS_Practice
 {
     /*
@@ -22,8 +24,40 @@ namespace CS_Practice
      */
     public class MissingN
     {
-        public MissingN()
+        static public int missingN(int[] arr, int n)
         {
+            if (arr == null || arr.Length != n - 1 || maxValue(arr) > n)
+                return 0;
+                
+            int[] missingNumber = createPool(n);
+
+            for (int i=0; i<arr.Length; i++)
+            {
+                missingNumber = missingNumber.Where(num => num != arr[i]).ToArray();
+            }
+
+            return missingNumber[0];
         }
+
+            static private int maxValue(int[] arr)
+            {
+                int maxVal = 0;
+
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    if (arr[i] > maxVal)
+                        maxVal = arr[i];
+                }
+
+                return maxVal;
+            }
+
+            static private int[] createPool(int n)
+            {
+                int[] pool = new int[n];
+                for (int i = 0; i < pool.Length; i++)
+                    pool[i] = i + 1;
+                return pool;
+            }
     }
 }

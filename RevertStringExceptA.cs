@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text; //using for StringBuilder
+
 namespace CS_Practice
 {
     /*
@@ -13,8 +15,9 @@ namespace CS_Practice
      */
     public class RevertString
     {
-        public RevertString()
+        static public string revertString(string input)
         {
+            return input;
         }
     }
 }
