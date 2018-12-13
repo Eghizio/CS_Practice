@@ -10,8 +10,19 @@ namespace CS_Practice
      */
     public class Coins
     {
-        public Coins()
+        static public int minimalCoins(int input)
         {
+            int[] coins = { 200, 100, 50, 20, 10, 5, 2, 1 };
+            int coinAmount = 0;
+
+            foreach (int coin in coins)
+            {
+                coinAmount += (input - (input % coin)) / coin;
+                input %= coin;
+            }
+                
+
+            return coinAmount;
         }
     }
 }
