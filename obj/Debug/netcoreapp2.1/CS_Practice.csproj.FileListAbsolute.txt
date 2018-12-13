@@ -1,0 +1,11 @@
+/Users/eghizio/Projects/CS_Practice/bin/Debug/netcoreapp2.1/CS_Practice.deps.json
+/Users/eghizio/Projects/CS_Practice/bin/Debug/netcoreapp2.1/CS_Practice.runtimeconfig.json
+/Users/eghizio/Projects/CS_Practice/bin/Debug/netcoreapp2.1/CS_Practice.runtimeconfig.dev.json
+/Users/eghizio/Projects/CS_Practice/bin/Debug/netcoreapp2.1/CS_Practice.dll
+/Users/eghizio/Projects/CS_Practice/bin/Debug/netcoreapp2.1/CS_Practice.pdb
+/Users/eghizio/Projects/CS_Practice/obj/Debug/netcoreapp2.1/CS_Practice.csprojAssemblyReference.cache
+/Users/eghizio/Projects/CS_Practice/obj/Debug/netcoreapp2.1/CS_Practice.csproj.CoreCompileInputs.cache
+/Users/eghizio/Projects/CS_Practice/obj/Debug/netcoreapp2.1/CS_Practice.AssemblyInfoInputs.cache
+/Users/eghizio/Projects/CS_Practice/obj/Debug/netcoreapp2.1/CS_Practice.AssemblyInfo.cs
+/Users/eghizio/Projects/CS_Practice/obj/Debug/netcoreapp2.1/CS_Practice.dll
+/Users/eghizio/Projects/CS_Practice/obj/Debug/netcoreapp2.1/CS_Practice.pdb
