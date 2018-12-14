@@ -39,9 +39,14 @@ namespace CS_Practice
             //int k = 3;
             //int[] input = { 1, 2, 3, 4 };
             //int k = 1;
-            int[] output = ArrayShift.arrayShift(input, k);
-            foreach (int s in output)
-                Console.Write(s);
+            //int[] output = ArrayShift.arrayShift(input, k);
+            //foreach (int s in output)
+            //Console.Write(s);
+
+            //string input = "Ala";
+            //string input = "Ala ma kota";
+            //string input = "International Business Machines";
+            //Console.WriteLine(DuplicateString.duplicateValues(input));
         }
     }
 }

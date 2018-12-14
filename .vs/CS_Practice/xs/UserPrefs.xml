@@ -3,7 +3,7 @@
   <MonoDevelop.Ide.ItemProperties.CS__Tests FirstBuild="True" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CS_Tests/UnitTest1.cs">
     <Files>
-      <File FileName="Main.cs" Line="37" Column="13" />
+      <File FileName="Main.cs" Line="37" Column="1" />
       <File FileName="LongestRow.cs" Line="2" Column="80" />
       <File FileName="Coins.cs" Line="21" Column="31" />
       <File FileName="RevertStringExceptA.cs" Line="20" Column="26" />
