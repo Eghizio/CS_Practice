@@ -12,8 +12,15 @@ namespace CS_Practice
      */
     public class ArrayShift
     {
-        public ArrayShift()
+        static public int[] arrayShift(int[] arr, int k)
         {
+            int[] shifted = new int[arr.Length];
+
+
+            for(int i=0; i<arr.Length; i++)
+                shifted[(i+k)%shifted.Length] = arr[i];
+
+            return shifted;
         }
     }
 }

@@ -10,9 +10,9 @@ namespace CS_Practice
             //string[] input = { "a", "b", "c"};
             //string[] input = { "a", "ab", "abc"};
             //string[] output = LongestRow.longestRow(input);
-            //foreach(string row in output){
+            //foreach(string row in output)
             //    Console.WriteLine(row);
-            //}
+            //
 
             //int input = 1021;
             //Console.WriteLine(Coins.minimalCoins(input));
@@ -33,6 +33,15 @@ namespace CS_Practice
             //int[] input = { 1, 2, 3, 4, 5, 6, 7, 10 };
             //int n = 9;
             //Console.WriteLine(MissingN.missingN(input,n));
+            //need to learn unit tests asap xD
+
+            //int[] input = { 3, 8, 9, 7, 6 };
+            //int k = 3;
+            //int[] input = { 1, 2, 3, 4 };
+            //int k = 1;
+            int[] output = ArrayShift.arrayShift(input, k);
+            foreach (int s in output)
+                Console.Write(s);
         }
     }
 }

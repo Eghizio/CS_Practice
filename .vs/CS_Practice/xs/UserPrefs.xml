@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{3E62EACB-9270-4B9D-AD9C-E011F29BB5EE}|Default">
   <MonoDevelop.Ide.ItemProperties.CS__Practice PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RevertStringExceptA.cs">
+  <MonoDevelop.Ide.ItemProperties.CS__Tests FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CS_Tests/UnitTest1.cs">
     <Files>
-      <File FileName="Main.cs" Line="20" Column="63" />
+      <File FileName="Main.cs" Line="37" Column="13" />
       <File FileName="LongestRow.cs" Line="2" Column="80" />
       <File FileName="Coins.cs" Line="21" Column="31" />
-      <File FileName="RevertStringExceptA.cs" Line="32" Column="18" />
-      <File FileName="MissingN.cs" Line="21" Column="17" />
-      <File FileName="ArrayShift.cs" Line="6" Column="8" />
+      <File FileName="RevertStringExceptA.cs" Line="20" Column="26" />
+      <File FileName="MissingN.cs" Line="55" Column="27" />
+      <File FileName="ArrayShift.cs" Line="20" Column="43" />
       <File FileName="StringMathematic.cs" Line="12" Column="17" />
       <File FileName="DuplicateString.cs" Line="12" Column="17" />
       <File FileName="ReverseString.cs" Line="13" Column="31" />
+      <File FileName="CS_Tests/UnitTest1.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
