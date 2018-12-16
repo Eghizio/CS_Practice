@@ -47,6 +47,12 @@ namespace CS_Practice
             //string input = "Ala ma kota";
             //string input = "International Business Machines";
             //Console.WriteLine(DuplicateString.duplicateValues(input));
+
+
+            Console.WriteLine(ReverseString.reverseString("Kasia"));
+            Console.WriteLine(ReverseString.reverseString("Bielsko-Biala"));
+            Console.WriteLine(ReverseString.reverseString("Hello World!"));
+        
         }
     }
 }
