@@ -13,8 +13,45 @@ namespace CS_Practice
      */
     public class StringMathematic
     {
-        public void stringMathematic()
+        static public float stringMathematic(string input) //eval(works without order of operations & brackets)
         {
+            char[] arr = input.Replace(" ", String.Empty).ToCharArray();
+            // [1+2*4] = 9
+            //returns 12 cause 1+2 = 3, 3*4 = 12
+
+            float num = 0;
+            bool prevSign = false;
+
+            for(int i=0; i<arr.Length; i++)
+            {
+                if (prevSign)
+                {
+                    prevSign = false;
+                    switch(arr[i-1])
+                    {
+                        case '+':
+                            num += float.Parse(arr[i].ToString());
+                            break;
+                        case '-':
+                            num -= float.Parse(arr[i].ToString());
+                            break;
+                        case '*':
+                            num *= float.Parse(arr[i].ToString());
+                            break;
+                        case '/':
+                            num /= float.Parse(arr[i].ToString());
+                            break;
+                    }
+                }
+                else if (char.IsDigit(arr[i]))
+                    num = float.Parse(arr[i].ToString());
+                else if (arr[i].Equals('+') ||
+                         arr[i].Equals('-') ||
+                         arr[i].Equals('*') ||
+                         arr[i].Equals('/'))
+                    prevSign = true;
+            }
+            return num;
         }
     }
 }

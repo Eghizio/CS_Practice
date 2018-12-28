@@ -53,6 +53,13 @@ namespace CS_Practice
             //Console.WriteLine("inoMa <=Expected");
             //Console.WriteLine(RevertString.revertString("Monia"));
 
+            Console.WriteLine("9 <=Expected");
+            Console.WriteLine(StringMathematic.stringMathematic("1 + 2 * 4"));
+            //Console.WriteLine("12 <=Expected");
+            //Console.WriteLine(StringMathematic.stringMathematic("2 * (2 + 2 * 2)"));
+            //Console.WriteLine("5 <=Expected");
+            //Console.WriteLine(StringMathematic.stringMathematic("(1 + 3 * 3) / 2"));
+
         }
     }
 }
