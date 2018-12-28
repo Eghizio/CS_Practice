@@ -13,7 +13,7 @@ namespace CS_Practice
      */
     public class StringMathematic
     {
-        public StringMathematic()
+        public void stringMathematic()
         {
         }
     }

@@ -17,6 +17,26 @@ namespace CS_Practice
     {
         static public string revertString(string input)
         {
+            int l = 0;
+            int r = input.Length - 1;
+            char[] arr = input.ToCharArray();
+
+            while (l < r)
+            {
+                if (arr[l].Equals('a'))
+                    l++;
+                else if (arr[r].Equals('a'))
+                    r--;           
+                else
+                {
+                    char temp = arr[l];
+                    arr[l] = arr[r];
+                    arr[r] = temp;
+                    l++;
+                    r--;
+                }
+            }
+            input = new string(arr);
             return input;
         }
     }

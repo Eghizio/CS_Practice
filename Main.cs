@@ -17,11 +17,6 @@ namespace CS_Practice
             //int input = 1021;
             //Console.WriteLine(Coins.minimalCoins(input));
 
-            //string input1 = "Marek";
-            //Console.WriteLine(RevertString.revertString(input1));
-            //string input2 = "Monia";
-            //Console.WriteLine(RevertString.revertString(input2));
-
             //int[] input = { 1, 2, 3, 4, 6, 7, 8, 9 };
             //int n = 9;
             //int[] input = { 2, 6, 7, 3, 5, 8, 9, 1 };
@@ -49,10 +44,15 @@ namespace CS_Practice
             //Console.WriteLine(DuplicateString.duplicateValues(input));
 
 
-            Console.WriteLine(ReverseString.reverseString("Kasia"));
-            Console.WriteLine(ReverseString.reverseString("Bielsko-Biala"));
-            Console.WriteLine(ReverseString.reverseString("Hello World!"));
-        
+            //Console.WriteLine(ReverseString.reverseString("Kasia"));
+            //Console.WriteLine(ReverseString.reverseString("Bielsko-Biala"));
+            //Console.WriteLine(ReverseString.reverseString("Hello World!"));
+
+            //Console.WriteLine("kaerM <=Expected");
+            //Console.WriteLine(RevertString.revertString("Marek"));
+            //Console.WriteLine("inoMa <=Expected");
+            //Console.WriteLine(RevertString.revertString("Monia"));
+
         }
     }
 }
