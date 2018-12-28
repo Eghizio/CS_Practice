@@ -13,7 +13,7 @@ namespace CS_Practice
      */
     public class StringMathematic
     {
-        static public float stringMathematic(string input) //eval(works without order of operations & brackets)
+        static public float stringMathematic(string input) //eval(works without order of operations & brackets and numbers 0-9)
         {
             char[] arr = input.Replace(" ", String.Empty).ToCharArray();
             // [1+2*4] = 9
